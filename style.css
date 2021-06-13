@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+body{
+background: #5e8b7e;
+}
+
+.head{
+    background: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: .6rem;
+}
+
+
+.container{
+    width: 80%;
+    margin: 7rem auto 0 auto;
+    display: flex;
+}
+.computer-section,.player-section,.score-details{
+    width: 33.33%;
+}
+
+.score-details{
+    background: #343f56;
+    display: flex;
+    flex-direction: column;
+}
+.score-details p{
+    padding: .8rem;
+    color: white;
+}
+
+
+/* .one{
+    height: 14rem;
+    width: 100%;
+    background: brown;
+} */
+
+#result{
+    text-align: center;
+    font-size: 2rem;
+    filter: drop-shadow(.1rem .1rem .2rem cyan)
+}
+/*---------Selection Container----------------*/
+
+.selection{
+    margin-top: 5rem;
+    background: red;
+}
+.selection-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #1f345678;
+    border: 1px solid black;
+    margin: auto auto;
+}
+.selection-container > div{
+padding: .7rem;
+}
+.selection-container > div:hover{
+    background: rgba(138, 17, 23, 0.452);
+}
+
+.selection-container p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.bestof{
+    width: 100%;
+    padding: 3rem;
+}
+.button-holder{
+    width: 10rem;
+    margin: auto auto;
+}
+button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: 0px solid;
+    transition: all .5s ease-in-out;
+    background: #164749;
+    color: white;
+    box-shadow: .0rem .3rem .9rem black;
+}
+button:hover{
+    transform: translateY(-.5rem);
+}
+
+#comp-img,#plyr-img{
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .selection-container p{
+    font-size: 1rem;
+    }
+}

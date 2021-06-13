@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="head">
+      <h3>Rock Paper Scissor</h3>
+    </div>
+    <div class="container">
+      <div class="computer-section">
+          <img src="images/crock.png" alt="" id="comp-img">
+      </div>
+      <div class="score-details">
+        <p>Best of:<span id="best"> 3</span></p>
+        <p>Won:<span id="won"> 0</span></p>
+        <p>Loose:<span id="loose"> 0</span></p>
+        <p>Tie:<span id="tie"> 0</span></p>
+        <h3 id="result"></h3>
+      </div>
+      <div class="player-section">
+          <img src="images/prock.png" alt="" id="plyr-img">
+      </div>
+    </div>
+    <div class="selection">
+      <div class="selection-container">
+        <div class="rock" id="rock">
+          <p>ROCK</p>
+        </div>
+        <div class="paper" id="paper">
+          <p>PAPER</p>
+        </div>
+        <div class="scissor" id="scissors">
+          <p>SCISSORS</p>
+        </div>
+      </div>
+    </div>
+    <div class="bestof">
+        <div class="button-holder"><button id="bestof">Change Best Of</button>
+        </div>
+    </div>
+  </body>
+</html>
