@@ -66,7 +66,6 @@ const winnerManager = (userSelText, userSel) => {
   ) {
     wonNumber += 1;
     won.textContent = wonNumber;
-    console.log("won");
   } else if (
     (compSel === ROCK && userSelText === SCISSORS) ||
     (compSel === PAPER && userSelText === ROCK) ||
