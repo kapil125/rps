@@ -89,7 +89,7 @@ const winnerManager = (userSelText, userSel) => {
       resultText.textContent = "It's A Tie";
     } else {
       console.log("You Loose");
-      resultText.textContent = "You Loose-_-";
+      resultText.textContent = "You Loose";
     }
     setTimeout(reset, 3000);
   }
