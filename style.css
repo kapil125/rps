@@ -10,12 +10,14 @@ background: #5e8b7e;
 }
 
 .head{
-    background: white;
+    background: #2f3746;
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
     padding: .6rem;
+    color: rgb(177, 173, 173);
 }
+
 
 
 .container{
@@ -49,7 +51,7 @@ background: #5e8b7e;
     text-align: center;
 }
 .score-details p{
-    background: blue;
+    background: #576a91;
 }
 .score-details span{
     display: flex;
@@ -63,7 +65,7 @@ background: #5e8b7e;
 }
 .score-details p{
     padding: .8rem;
-    color: white;
+    font-weight: 550;
 }
 
 #result{
@@ -81,7 +83,7 @@ background: #5e8b7e;
     width: 40%;
     justify-content: space-between;
     cursor: pointer;
-    background: #1f345678;
+    background: #3c5e7c;
     border: 1px solid black;
     margin: auto auto;
 }
@@ -106,13 +108,13 @@ padding: .7rem;
 }
 button{
     width: 10rem;
-    height: 2rem;
+    height: 2.5rem;
     font-size: 1.1rem;
     outline: none;
     border: 0px solid;
     transition: all .5s ease-in-out;
-    background: #164749;
-    color: white;
+    background: #012443;
+    color: rgb(187, 185, 185);
     box-shadow: .0rem .3rem .9rem black;
 }
 button:hover{
@@ -184,5 +186,8 @@ button:hover{
     }
     .bestof{
         padding: 1rem;
+    }
+    button{
+        height: 2rem;
     }
 }
