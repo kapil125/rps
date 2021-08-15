@@ -30,7 +30,6 @@ background: #5e8b7e;
 }
 
 .score-details{
-    /* background: #343f56; */
     display: grid;
     grid-gap: 1rem;
     grid-template-areas: 
@@ -152,16 +151,15 @@ button:hover{
     }
     .score-details > div{
         display: grid;
-        height: 100%;
         grid-template-rows: 65% 35% ;
         text-align: center;
     }
     .score-details span{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .score-details p{
         padding: .2rem 0 .5rem 0;
-        font-size: .7rem;
+        font-size: .8rem;
     }
     #result{
         font-size: 1rem;
